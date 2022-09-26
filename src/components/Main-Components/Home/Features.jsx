@@ -1,11 +1,20 @@
 import React from 'react';
 import '../../Styles/Main.css';
-import colorPalette from '../../../photos/color-palette.png';
-import component from '../../../photos/component.png';
-import portfolio from '../../../photos/portfolio.png';
-import websites from '../../../photos/websites.png';
+// import colorPalette from '../../../photos/color-palette.png';
+// import component from '../../../photos/component.png';
+// import portfolio from '../../../photos/portfolio.png';
+// import websites from '../../../photos/websites.png';
+
+import colorPalette from '../../../svg/color-palette.svg';
+import component from '../../../svg/component.svg';
+import portfolio from '../../../svg/portfolio.svg';
+import websites from '../../../svg/websites.svg';
+
 
 function Features() {
+
+  
+
   return (
     <div id='features-section'>
       <h2>
