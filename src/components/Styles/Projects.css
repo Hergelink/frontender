@@ -1,5 +1,15 @@
+#projects-header-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+
 .projects-container {
-  width: 95%;
+  width: 85%;
+  margin-inline: auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .project-div {
@@ -28,6 +38,7 @@ a {
 .project-images {
   width: 100%;
   border-bottom: 2px solid black;
+  object-fit: contain;
 }
 
 .dificulty {
@@ -37,11 +48,14 @@ a {
 
 
 @media only screen and (min-width: 730px) {
+
+  #projects-header-container h1{
+    font-size: 4rem;
+  }
  
     #main-container-div {
-        max-width: 1200px;
-        display: flex;
-        justify-content: center;
+        max-width: 1400px;
+        margin-inline: auto;
       }
     
       .projects-container {
