@@ -1,19 +1,29 @@
-import React from 'react'
+import React from 'react';
+import Project from './Project';
+import projectTemplate from './projectTemplate';
+
 
 function Projects() {
+
   return (
-    <>
-    <div>Here are all the projects will be displayed</div>
-    <br />
-    <br />
-    <br />
-    <p>asdasdasda</p>
-    <br />
-    <p>asdasd</p>
-    
-    
-    </>
-  )
+    <div className='projects-container'>
+      {projectTemplate.map((project, key) => {
+        return (
+          <Project
+            name={project.projectName}
+            image={project.referenceImage}
+            altText={project.imageAltText}
+            dificulty={project.dificulty}
+            website={project.originalWebsite}
+            stockPhoto={project.stockPhotoWebsite}
+            icons={project.freeIconsWebsite}
+            colorPalette={project.colorPalette}
+            key={key}
+          />
+        );
+      })}
+    </div>
+  );
 }
 
-export default Projects
+export default Projects;
