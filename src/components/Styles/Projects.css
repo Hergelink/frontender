@@ -3,8 +3,6 @@
   margin-top: 2rem;
 }
 
-
-
 .projects-container {
   width: 85%;
   margin-inline: auto;
@@ -24,11 +22,10 @@
   color: white;
 
   overflow: hidden;
-
 }
 
 .project-div h1 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 a {
@@ -45,46 +42,40 @@ a {
   display: block;
 }
 
-
-
 @media only screen and (min-width: 730px) {
-
-  #projects-header-container h1{
+  #projects-header-container h1 {
     font-size: 4rem;
   }
- 
-    #main-container-div {
-        max-width: 1400px;
-        margin-inline: auto;
-      }
-    
-      .projects-container {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      /* -webkit-box-pack: center; */
-      justify-content: center;
-      }
-    
-      .project-div {
-        cursor: pointer;
-    
-        max-width: 300px;
-        margin: 18px;
-        transition: ease 2s;
-      }
 
+  #main-container-div {
+    max-width: 1400px;
+    margin-inline: auto;
+  }
 
+  .projects-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* -webkit-box-pack: center; */
+    justify-content: center;
+  }
 
+  .project-div {
+    cursor: pointer;
+
+    max-width: 300px;
+    margin: 18px;
+    transition: ease 2s;
+  }
+
+  .project-div:hover {
+    transform: scale(1.05);
+  }
 }
 
-
 @media only screen and (min-width: 1200px) {
-    
-
-    .project-div {
-        max-width: 300px;
-        transition: ease 2s;
-    }
-
+  .project-div {
+    max-width: 300px;
+    transition: ease 2s;
   }
+}
