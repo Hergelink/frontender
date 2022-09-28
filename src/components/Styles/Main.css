@@ -178,10 +178,12 @@ h2 {
 
   .feature-item {
     transition: all 0.4s ease-out;
+    border-radius: 8px;
   }
 
   .feature-item:hover {
     transform: scale(1.05);
+    background-color: #ffecef;
   }
 
   .feature-item p {

@@ -1,3 +1,4 @@
+// Small images:
 import google from '../../../project-photos/Google-img.jpg';
 import cambly from '../../../project-photos/Cambly-img.jpg';
 import verge from '../../../project-photos/Verge-img.jpg';
@@ -11,6 +12,21 @@ import dropbox from '../../../project-photos/Dropbox-img.jpg';
 import etq from '../../../project-photos/Etq-img.jpg';
 import larsTornoe from '../../../project-photos/Lars-Tornoe-img.jpg';
 
+// Full size images:
+
+import camblyFull from '../../../project-photos/full-page-img/Cambly-full.png';
+import dropboxFull from '../../../project-photos/full-page-img/Dropbox-full.png';
+import etqFull from '../../../project-photos/full-page-img/Etq-full.png';
+import larsFull from '../../../project-photos/full-page-img/Lars-full.png';
+import nuraFull from '../../../project-photos/full-page-img/Nura-full.png';
+import sliteFull from '../../../project-photos/full-page-img/Slite-full.png';
+import svzFull from '../../../project-photos/full-page-img/Svz-full.png';
+import vergeFull from '../../../project-photos/full-page-img/Verge-full.png';
+
+
+
+
+
 const projectTemplate = [
   {
     id: 1,
@@ -20,6 +36,7 @@ const projectTemplate = [
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
     colorPalette: ['#000000', '#fff', '#dadbf1'],
     referenceImage: google,
+    fullImg: '',
     imageAltText: 'google homepage',
     dificulty: 'Beginner',
   },
@@ -30,8 +47,9 @@ const projectTemplate = [
     originalWebsite: 'https://www.cambly.com/',
     stockPhotoWebsite: 'https://www.pexels.com/',
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
-    colorPalette: ['#000000', '#fff', '#dadbf1'],
+    colorPalette: ['#4c95e9', '#edeeef', '#272730', '#ff614f', '#eeeeee'],
     referenceImage: cambly,
+    fullImg: camblyFull,
     imageAltText: 'cambly homepage',
     dificulty: 'Intermediate',
   },
@@ -42,8 +60,9 @@ const projectTemplate = [
     originalWebsite: 'https://www.theverge.com/',
     stockPhotoWebsite: 'https://www.pexels.com/',
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
-    colorPalette: ['#000000', '#fff', '#dadbf1'],
+    colorPalette: ['#131313', '#ffffff', '#3ae8be', '#4c03e8', '#c3dd21', '#e9b1d2'],
     referenceImage: verge,
+    fullImg: vergeFull,
     imageAltText: 'verge homepage',
     dificulty: 'Expert',
   },
@@ -56,6 +75,7 @@ const projectTemplate = [
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
     colorPalette: ['#000000', '#fff', '#dadbf1'],
     referenceImage: canva,
+    fullImg: '',
     imageAltText: 'canva homepage',
     dificulty: 'Intermediate',
   },
@@ -66,8 +86,9 @@ const projectTemplate = [
     originalWebsite: 'https://slite.com/',
     stockPhotoWebsite: 'https://www.pexels.com/',
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
-    colorPalette: ['#000000', '#fff', '#dadbf1'],
+    colorPalette: ['#f9efe4', '#2f2f30', '#196ae4', '#f67748', '#efbaca'],
     referenceImage: slite,
+    fullImg: sliteFull,
     imageAltText: 'slite homepage',
     dificulty: 'Expert',
   },
@@ -80,6 +101,7 @@ const projectTemplate = [
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
     colorPalette: ['#000000', '#fff', '#dadbf1'],
     referenceImage: wannabe,
+    fullImg: '',
     imageAltText: 'wannabe homepage',
     dificulty: 'Intermediate',
   },
@@ -90,8 +112,9 @@ const projectTemplate = [
     originalWebsite: 'https://www.dropbox.com/',
     stockPhotoWebsite: 'https://www.pexels.com/',
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
-    colorPalette: ['#000000', '#fff', '#dadbf1'],
+    colorPalette: ['#0060ff', '#1e1919', '#f7f5f1', '#ffffff', '#b5dc18'],
     referenceImage: dropbox,
+    fullImg: dropboxFull,
     imageAltText: 'dropbox homepage',
     dificulty: 'Beginner',
   },
@@ -104,8 +127,9 @@ const projectTemplate = [
     originalWebsite: 'https://www.svz.io/',
     stockPhotoWebsite: 'https://www.pexels.com/',
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
-    colorPalette: ['#000000', '#fff', '#dadbf1'],
+    colorPalette: ['#000000', '#f4f4f4', '#60e696', '#278dfd', '#fb71fe', '#ffd524'],
     referenceImage: svz,
+    fullImg: svzFull,
     imageAltText: 'svz homepage',
     dificulty: 'Intermediate',
   },
@@ -118,6 +142,7 @@ const projectTemplate = [
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
     colorPalette: ['#000000', '#fff', '#dadbf1'],
     referenceImage: yaya,
+    fullImg: '',
     imageAltText: 'yaya homepage',
     dificulty: 'Beginner',
   },
@@ -128,8 +153,9 @@ const projectTemplate = [
     originalWebsite: 'https://www.etq-amsterdam.com/',
     stockPhotoWebsite: 'https://www.pexels.com/',
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
-    colorPalette: ['#000000', '#fff', '#dadbf1'],
+    colorPalette: ['#ffffff', '#ececec', '#565656'],
     referenceImage: etq,
+    fullImg: etqFull,
     imageAltText: 'etq amsterdam homepage',
     dificulty: 'Beginner',
   },
@@ -140,8 +166,9 @@ const projectTemplate = [
     originalWebsite: 'https://www.larstornoe.com/',
     stockPhotoWebsite: 'https://www.pexels.com/',
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
-    colorPalette: ['#000000', '#fff', '#dadbf1'],
+    colorPalette: ['#050505', '#ffffff'],
     referenceImage: larsTornoe,
+    fullImg: larsFull,
     imageAltText: 'homepage',
     dificulty: 'Beginner',
   },
@@ -152,8 +179,9 @@ const projectTemplate = [
     originalWebsite: 'https://www.nurasound.com/',
     stockPhotoWebsite: 'https://www.pexels.com/',
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
-    colorPalette: ['#000000', '#fff', '#dadbf1'],
+    colorPalette: ['#3333f4', '#272727', '#000000', '#3481f4', '#7b59b2', '#7bf45b'],
     referenceImage: nura,
+    fullImg: nuraFull,
     imageAltText: 'nura homepage',
     dificulty: 'Intermediate',
   },

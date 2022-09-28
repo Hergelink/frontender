@@ -6,14 +6,21 @@ import ErrorPage from './Main-Components/ErrorPage';
 import FAQ from './Main-Components/FAQ';
 import HomePage from './Main-Components/Home/HomePage';
 import ProjectsPage from './Main-Components/Projects/ProjectsPage';
+import SelectedProject from './Main-Components/Projects/SelectedProject';
 
 
 function Main() {
+
+
+
   return (
     <main>
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route path='/' index element={<HomePage />} />
         <Route path='/projects' element={<ProjectsPage />} />
+        
+        <Route path='/projects/:id' element={<SelectedProject />} />
+        
         <Route path='/faq' element={<FAQ />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/*' element={<ErrorPage />} />

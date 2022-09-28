@@ -19,6 +19,7 @@ function Projects() {
             icons={project.freeIconsWebsite}
             colorPalette={project.colorPalette}
             key={key}
+            id={project.id}
           />
         );
       })}
