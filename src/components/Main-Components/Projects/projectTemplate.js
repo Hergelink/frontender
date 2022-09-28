@@ -14,14 +14,14 @@ import larsTornoe from '../../../project-photos/Lars-Tornoe-img.jpg';
 
 // Full size images:
 
-import camblyFull from '../../../project-photos/full-page-img/Cambly-full.png';
-import dropboxFull from '../../../project-photos/full-page-img/Dropbox-full.png';
-import etqFull from '../../../project-photos/full-page-img/Etq-full.png';
-import larsFull from '../../../project-photos/full-page-img/Lars-full.png';
-import nuraFull from '../../../project-photos/full-page-img/Nura-full.png';
-import sliteFull from '../../../project-photos/full-page-img/Slite-full.png';
-import svzFull from '../../../project-photos/full-page-img/Svz-full.png';
-import vergeFull from '../../../project-photos/full-page-img/Verge-full.png';
+import camblyFull from '../../../project-photos/full-page-img/Cambly-full.jpg';
+import dropboxFull from '../../../project-photos/full-page-img/Dropbox-full.jpg';
+import etqFull from '../../../project-photos/full-page-img/Etq-full.jpg';
+import larsFull from '../../../project-photos/full-page-img/Lars-full.jpg';
+import nuraFull from '../../../project-photos/full-page-img/Nura-full.jpg';
+import sliteFull from '../../../project-photos/full-page-img/Slite-full.jpg';
+import svzFull from '../../../project-photos/full-page-img/Svz-full.jpg';
+import vergeFull from '../../../project-photos/full-page-img/Verge-full.jpg';
 
 
 
