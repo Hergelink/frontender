@@ -10,13 +10,13 @@ function DisplaySelectedProject(props) {
         <h3>Useful links:</h3>
         <div id='useful-links-div'>
           <a href={props.website} target='_blank'>
-            View Live
+          🌐 View Live
           </a>
           <a href={props.stockPhoto} target='_blank'>
-            Free Stock Images
+          📷 Free Stock Images
           </a>
           <a href={props.icons} target='_blank'>
-            Free Icons
+          📦 Free Icons
           </a>
         </div>
         <div className='color-palette-container'>

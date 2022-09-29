@@ -19,6 +19,14 @@
   border-radius: 8px;
   background-color: #ffecef;
   font-size: 1.1rem;
+
+  background: rgb(180, 58, 126);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 58, 126, 0.2934567577030813) 0%,
+    rgba(85, 29, 253, 0.25143995098039214) 50%,
+    rgba(252, 176, 69, 0.3298713235294117) 100%
+  );
 }
 
 .projects-container {

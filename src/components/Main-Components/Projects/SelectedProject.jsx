@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import DisplaySelectedProject from './DisplaySelectedProject';
 
@@ -9,6 +9,9 @@ function SelectedProject(props) {
 
   const findProject = projectTemplate.find((proj) => proj.id == id);
 
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
   return (
     <DisplaySelectedProject

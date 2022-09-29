@@ -9,12 +9,18 @@
 }
 
 #useful-links-div {
-  text-decoration: underline;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
 #useful-links-div a {
-  margin-bottom: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  border-radius: 8px;
+  padding: 2px;
+  margin-bottom: 1rem;
+  margin-inline: auto;
+  max-width: 240px;
+  font-size: 1.2rem;
 }
 
 .color-palette-container {
@@ -62,6 +68,11 @@
 
   #useful-links-div a {
     margin-inline: 1rem;
+    transition: all 0.4s ease-out;
+  }
+
+  #useful-links-div a:hover {
+    transform: scale(1.03);
   }
 
   .color-palette-container {

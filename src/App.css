@@ -15,7 +15,7 @@ ul {
 }
 
 header {
-  background-color: white;
+  /* background-color: white; */
   height: 5rem;
   font-weight: 600;
   border-bottom: 2px solid rgb(48, 43, 43);
@@ -27,6 +27,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.1934567577030813) 0%,
+    rgba(253, 29, 29, 0.15143995098039214) 50%,
+    rgba(252, 176, 69, 0.2298713235294117) 100%
+  );
 }
 
 #header-container {
@@ -84,8 +92,6 @@ header {
   width: 60%;
   min-height: 100vh;
   
-  
-  
   position: absolute;
   right: 0;
   top: 0;
@@ -93,6 +99,7 @@ header {
   z-index: 1;
   border-left: 2px solid rgb(48, 43, 43);
   background-color: white;
+ 
 
   display: flex;
   align-items: center;

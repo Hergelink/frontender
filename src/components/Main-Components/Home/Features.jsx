@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../Styles/Main.css';
 
-import colorPalette from '../../../svg/color-palette.svg';
-import component from '../../../svg/component.svg';
-import portfolio from '../../../svg/portfolio.svg';
-import websites from '../../../svg/websites.svg';
+import colorPalette from '../../../features-img/color-palette.png';
+import component from '../../../features-img/component.png';
+import portfolio from '../../../features-img/portfolio.png';
+import websites from '../../../features-img/websites.png';
 
 
 function Features() {
