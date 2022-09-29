@@ -32,11 +32,12 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: white;
+.main-container-div button:hover {
+  background-color: transparent;
   color: red;
   border: 2px solid red;
 }
+
 
 /* Hero Section */
 
@@ -190,7 +191,7 @@ h2 {
 
   .feature-item:hover {
     transform: scale(1.05);
-    background-color: #ffecef;
+    background-color: transparent;
   }
 
   .feature-item p {

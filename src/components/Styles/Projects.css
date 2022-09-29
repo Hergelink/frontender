@@ -3,8 +3,11 @@
   margin-top: 2rem;
 }
 
-#red-dot {
-  color: rgba(255, 0, 0, 0.5);
+#projects-header-container h1{
+  font-size: 2.3rem;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 0, 0, 0.5);
+  margin-bottom: 1rem;
 }
 
 .emoji {
@@ -29,8 +32,31 @@
   );
 }
 
-.projects-container {
+#difficulty-btn-div {
   width: 85%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#difficulty-btn-div button {
+  width: 110px;
+}
+
+#beginner-btn {
+  background-color: green;
+}
+#intermediate-btn {
+  background-color: orange;
+}
+#expert-btn {
+  background-color: red;
+}
+
+.projects-container {
+  width: 80%;
   margin-inline: auto;
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -85,6 +111,18 @@ a {
 
   .emoji {
     margin-right: 8px;
+  }
+
+  #difficulty-btn-div {
+    max-width: 400px; 
+  }
+
+  #difficulty-btn-div button {
+    transition: ease 0.5s;
+  }
+
+  #difficulty-btn-div button:hover {
+    transform: scale(1.1);
   }
 
   #main-container-div {

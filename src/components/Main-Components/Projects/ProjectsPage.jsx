@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Projects from './Projects'
 import ProjectsPageHeader from './ProjectsPageHeader'
 import '../../Styles/Projects.css'
+import DifficultyButtons from './DifficultyButtons';
 
 function ProjectsPage() {
 
@@ -13,6 +14,7 @@ function ProjectsPage() {
   return (
     <div id='main-container-div'>
       <ProjectsPageHeader />
+      <DifficultyButtons />
       <Projects />
     </div>
   )

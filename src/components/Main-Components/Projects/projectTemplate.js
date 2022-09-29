@@ -14,6 +14,7 @@ import larsTornoe from '../../../project-photos/Lars-Tornoe-img.jpg';
 
 // Full size images:
 
+import googleFull from '../../../project-photos/full-page-img/Google-full.jpg';
 import camblyFull from '../../../project-photos/full-page-img/Cambly-full.jpg';
 import dropboxFull from '../../../project-photos/full-page-img/Dropbox-full.jpg';
 import etqFull from '../../../project-photos/full-page-img/Etq-full.jpg';
@@ -36,7 +37,7 @@ const projectTemplate = [
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
     colorPalette: ['#000000', '#fff', '#dadbf1'],
     referenceImage: google,
-    fullImg: '',
+    fullImg: googleFull,
     imageAltText: 'google homepage',
     dificulty: 'Beginner',
   },

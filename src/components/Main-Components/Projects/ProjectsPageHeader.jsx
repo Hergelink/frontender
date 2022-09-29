@@ -3,9 +3,7 @@ import React from 'react';
 function ProjectsPageHeader() {
   return (
     <div id='projects-header-container'>
-      <h1>
-        Projects Library<span id='red-dot'>:</span>
-      </h1>
+      <h1>Projects Library</h1>
       <div id='get-started-div'>
         <h3>How to get started:</h3>
         <div className='get-started-info'>

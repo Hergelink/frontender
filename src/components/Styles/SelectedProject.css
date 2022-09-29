@@ -47,7 +47,8 @@
 
 .full-image-div {
   width: 100%;
-  height: 1200px;
+  /* height: 1200px; */
+  /* height: 100%; */
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 3rem;
@@ -57,7 +58,9 @@
 
 .full-image {
   width: 100%;
+  height: 100%;
   object-fit: contain; 
+  display: block;
 }
 
 @media only screen and (min-width: 730px) {
