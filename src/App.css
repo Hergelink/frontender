@@ -90,6 +90,7 @@ header {
 
 #modal {
   width: 60%;
+  
   min-height: 100vh;
   
   position: absolute;
@@ -98,7 +99,7 @@ header {
   bottom: 0;
   z-index: 1;
   border-left: 2px solid rgb(48, 43, 43);
-  background-color: white;
+  background: linear-gradient(#F9ABA4, #EFECEC);
  
 
   display: flex;

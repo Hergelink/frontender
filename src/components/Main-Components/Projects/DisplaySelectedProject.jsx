@@ -24,7 +24,7 @@ function DisplaySelectedProject(props) {
           <ColorPalette colorPalette={props.colorPalette} />
         </div>
       </div>
-
+        <h3>Reference Image</h3>
       <div className='full-image-div'>
         <img src={props.fullImage} alt={props.altText} className='full-image' />
       </div>

@@ -87,6 +87,7 @@ form button {
   width: 50%;
   height: 40px;
 
+  font-size: 1.1rem;
   border: 1px solid rgba(0, 0, 0, 0.469);
   color: black;
   background-color: rgba(255, 255, 255, 0.295);
