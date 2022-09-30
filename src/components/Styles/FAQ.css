@@ -14,19 +14,18 @@
   display: flex;
   flex-direction: column;
 
-  border: 2px solid black;
+  
   border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   margin-bottom: 2rem;
 
   overflow: auto;
 }
 
 .faq-card-question {
-  padding: 8px;
+  padding: 12px;
 
-  /* color: white; */
-  /* font-size: 1.1rem;
-  font-style: bold; */
+ 
 
   background: rgb(180, 58, 126);
   background: linear-gradient(
@@ -36,11 +35,12 @@
     rgba(252, 176, 69, 0.3298713235294117) 100%
   );
 
-  border-bottom: 2px solid black;
+ 
+  
 }
 
 .faq-card-answer {
-  padding: 8px;
+  padding: 12px;
 }
 
 .faq-card-answer a {

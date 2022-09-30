@@ -12,7 +12,7 @@ function FAQ() {
         </div>
         <div className='faq-card-answer'>
           <p>
-            Frontend Practice is a curated collection of real-world websites
+            Frontender is a curated collection of real-world websites
             that developers can replicate to improve and test their skills. We
             believe our restructured approach will teach us a wide variety of
             skills, including design, interaction, animation, troubleshooting,
@@ -39,7 +39,7 @@ function FAQ() {
 
       <div className='faq-card'>
         <div className='faq-card-question'>
-          <h3>Can I suggest a website for Frontend Practice to feature?</h3>
+          <h3>Can I suggest a website for Frontender to feature?</h3>
         </div>
         <div className='faq-card-answer'>
           <p>
