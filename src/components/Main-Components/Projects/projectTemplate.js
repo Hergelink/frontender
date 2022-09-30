@@ -186,6 +186,7 @@ const projectTemplate = [
     imageAltText: 'nura homepage',
     dificulty: 'Intermediate',
   },
+
 ];
 
 export default projectTemplate;

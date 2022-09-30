@@ -16,7 +16,7 @@ function HeaderContainer() {
   return (
     <div id='header-container'>
       <Link to='/' id='site-logo'>
-        Frontender
+      Frontender 
       </Link>
 
       <div id='hamburger-menu' onClick={handleMenu}>
