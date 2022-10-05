@@ -23,6 +23,9 @@ import nuraFull from '../../../project-photos/full-page-img/Nura-full.jpg';
 import sliteFull from '../../../project-photos/full-page-img/Slite-full.jpg';
 import svzFull from '../../../project-photos/full-page-img/Svz-full.jpg';
 import vergeFull from '../../../project-photos/full-page-img/Verge-full.jpg';
+import canvaFull from '../../../project-photos/full-page-img/Canva-full.jpg';
+import wannabeFull from '../../../project-photos/full-page-img/Wannabe-full.jpg';
+import yayaFull from '../../../project-photos/full-page-img/Yaya-full.jpg';
 
 
 
@@ -76,7 +79,7 @@ const projectTemplate = [
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
     colorPalette: ['#000000', '#fff', '#dadbf1'],
     referenceImage: canva,
-    fullImg: '',
+    fullImg: canvaFull,
     imageAltText: 'canva homepage',
     dificulty: 'Intermediate',
   },
@@ -102,7 +105,7 @@ const projectTemplate = [
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
     colorPalette: ['#000000', '#fff', '#dadbf1'],
     referenceImage: wannabe,
-    fullImg: '',
+    fullImg: wannabeFull,
     imageAltText: 'wannabe homepage',
     dificulty: 'Intermediate',
   },
@@ -143,7 +146,7 @@ const projectTemplate = [
     freeIconsWebsite: 'https://www.freepik.com/popular-icons',
     colorPalette: ['#000000', '#fff', '#dadbf1'],
     referenceImage: yaya,
-    fullImg: '',
+    fullImg: yayaFull,
     imageAltText: 'yaya homepage',
     dificulty: 'Beginner',
   },
