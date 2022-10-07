@@ -98,6 +98,9 @@ form button {
 
 @media only screen and (min-width: 730px) {
 
+  #form-page-container {
+    min-height: 85vh;
+}
 
 
   .form-container-div {

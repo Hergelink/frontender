@@ -1,5 +1,6 @@
 .main-faq-div {
   width: 85%;
+  min-height: 80vh;
   margin-inline: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
