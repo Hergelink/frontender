@@ -1,7 +1,7 @@
 
 # Frontender
 
-A website for new frontend developers to practice real-world websites by providing them multiple examples with different difficulty levels. 
+A website for new frontend developers to practice real-world websites by providing them multiple example websites with different difficulty levels. 
 
 The Frontender idea came from another site called:
 
