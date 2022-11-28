@@ -28,6 +28,8 @@ export default function Forms() {
   const handleOnSubmit = (event) => {
     event.preventDefault();
 
+    console.log(inputs)
+
     axios({
       method: "POST",
       url: "https://formbold.com/s/oWGpo",
